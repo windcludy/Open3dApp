@@ -33,8 +33,8 @@ let package = Package(
         .binaryTarget(name: "libOpen3D_3rdparty_qhullcpp.a", url: "https://github.com/windcludy/Open3D-iOS/releases/download/0.0.20240422130123/libOpen3D_3rdparty_qhullcpp.a.xcframework.zip", checksum: "9bc7d2cfa20d49530c90ee7b917ef225dacebb3d86d96f767a6e7afe4f81318c"),
         .binaryTarget(name: "libOpen3D_3rdparty_rply.a", url: "https://github.com/windcludy/Open3D-iOS/releases/download/0.0.20240422130123/libOpen3D_3rdparty_rply.a.xcframework.zip", checksum: "8ca55269e70855f21cec6ce0a6528b3ed7482630da0cff4a7717c2232c725df7"),
         .binaryTarget(name: "libOpen3D.a", url: "https://github.com/windcludy/Open3D-iOS/releases/download/0.0.20240422130123/libOpen3D.a.xcframework.zip", checksum: "700b15b0c3502b608221cfaa48c34132d3bedcbcafa6f0cdcc417a2a10e1f0cd"),
-        .binaryTarget(name: "libOpen3D.a", url: "https://github.com/windcludy/Open3D-iOS/releases/download/0.0.20240422130123/libOpen3D.a.xcframework.zip", checksum: "700b15b0c3502b608221cfaa48c34132d3bedcbcafa6f0cdcc417a2a10e1f0cd"),
         .binaryTarget(name: "ZeroMQ", url: "https://github.com/windcludy/Open3D-iOS/releases/download/0.0.20240422130123/ZeroMQ.zip", checksum: "efbc1615a752ab285de3cf29cab6ff451e551116f410703955cf03e3bc7f21e1"),
+        .binaryTarget(name: "png", url: "https://github.com/windcludy/Open3D-iOS/releases/download/0.0.20240422130123/png.xcframework.zip", checksum: "8aff4b71a0e13a81dda2bc0b09de204fbb37001ad105a785e81a3edba7935073"),
         .binaryTarget(name: "TBB", url: "https://github.com/windcludy/Open3D-iOS/releases/download/0.0.20240422130123/TBB.xcframework.zip", checksum: "bf277779cb349c277bdd9bde7284988661c845f91aa627bde8fb97e2203eed57"),
         // Targets are the basic building blocks of a package, defining a module or a test suite.
         // Targets can depend on other targets in this package and products from dependencies.
