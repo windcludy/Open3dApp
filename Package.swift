@@ -56,7 +56,7 @@ let package = Package(
             ),
         .target(
             name: "Open3dApp",
-            resources: [.copy("lib")]
+            dependencies: ["LinkOpen3D"]
             ),
         .testTarget(
             name: "Open3dAppTests",
