@@ -10,6 +10,7 @@ let package = Package(
         .library(
             name: "Open3dApp",
             targets: [
+                "LinkOpen3D",
                 "Open3dApp",
                 "Assimp",
                 "JPEG",
