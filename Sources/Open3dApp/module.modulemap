@@ -1,4 +1,4 @@
-module Cglfw [system] {
-    header "glfw.h"
+module Open3dApp [system] {
+    header "open3d/Open3D.h"
     export *
 }
