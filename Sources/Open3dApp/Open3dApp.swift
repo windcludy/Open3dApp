@@ -6,7 +6,7 @@ import LinkOpen3D
 open class Swift3D {
     fileprivate let fileName: String
 
-    init(fileName: Int) {
+    init(fileName: String) {
         self.fileName = fileName
     }
 
