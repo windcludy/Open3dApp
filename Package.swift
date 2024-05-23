@@ -85,7 +85,7 @@ let package = Package(
                 "png",
                 // "pybind.a",
                 "TBB",
-                "BLAS-LAPACK-AppStore-Workaround",
+                // "BLAS-LAPACK-AppStore-Workaround",
                 // "libvtkCommonComputationalGeometry",
                 "libvtkCommonDataModel",
                 "libvtkCommonMath",
