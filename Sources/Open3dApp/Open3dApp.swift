@@ -11,7 +11,7 @@ open class Swift3D {
     }
 
     // – Increment iterator - return false if over end and do not increment
-    func increment() -> void {
+    func increment() {
         // return CreateImageWarpingFieldFromFile(self.fileName)
         PrintOpen3DVersion()
     }
