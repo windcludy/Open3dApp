@@ -1,4 +1,0 @@
-module Open3dApp [system] {
-    header "open3d.h"
-    export *
-}
