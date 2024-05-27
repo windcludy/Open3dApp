@@ -1,0 +1,5 @@
+module Open3dApp [system] {
+  umbrella header "open3d.h"
+  link "open3d"
+  export *
+}

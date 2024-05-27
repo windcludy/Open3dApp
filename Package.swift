@@ -104,8 +104,13 @@ let package = Package(
                 "libvtksys",
                 "libUVAtlas",
             ],
-            linkerSettings: [
-                .linkedLibrary("stdc++"),
+            // linkerSettings: [
+            //     .linkedLibrary("stdc++"),
+            // ]
+            // ,
+            path: "Sources/LinkOpen3D",
+            cxxSettings: [
+                .headerSearchPath("include")
             ]
             ),
         .target(
