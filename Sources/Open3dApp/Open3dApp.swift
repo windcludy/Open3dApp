@@ -6,8 +6,8 @@ import LinkOpen3D
 public struct Swift3D {
 
 
-     public static func openCVVersionString() -> String {
-        return Open3DWrapper.openCVVersionString()
+     public static func open3DVersionString() -> String {
+        return Open3DWrapper.open3DVersionString()
     }
 
     // fileprivate let fileName: String

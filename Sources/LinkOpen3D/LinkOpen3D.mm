@@ -18,6 +18,6 @@
 using namespace open3d;
 using namespace std;
 
-+ (NSString *)openCVVersionString {
++ (NSString *)open3DVersionString {
     return [NSString stringWithFormat:@"Open3D Version %s",  OPEN3D_VERSION];
 }
