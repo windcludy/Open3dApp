@@ -13,7 +13,7 @@
 
 #import <UIKit/UIKit.h>
 
-@implementation OpenCVWrapper
+@implementation Open3DWrapper
 
 using namespace open3d;
 using namespace std;

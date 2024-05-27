@@ -3,18 +3,23 @@
 import Foundation
 import LinkOpen3D
 
-open class Swift3D {
-    fileprivate let fileName: String
+public struct Swift3D {
 
-    init(fileName: String) {
-        self.fileName = fileName
+
+     public static func openCVVersionString() -> String {
+        return Open3DWrapper.openCVVersionString()
     }
 
-    // – Increment iterator - return false if over end and do not increment
-    func increment() {
-        // return CreateImageWarpingFieldFromFile(self.fileName)
-        PrintOpen3DVersion()
-    }
+    // fileprivate let fileName: String
 
+    // init(fileName: String) {
+    //     self.fileName = fileName
+    // }
+
+    // // – Increment iterator - return false if over end and do not increment
+    // func increment() {
+    //     // return CreateImageWarpingFieldFromFile(self.fileName)
+    //     PrintOpen3DVersion()
+    // }
   
 }
